@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block head %}
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+    <div id="message_box"></div>
+
+    <div id="log_box"></div>
+{% endblock %}
